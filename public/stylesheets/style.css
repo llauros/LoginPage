@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+}
+
+.registration {
+  position: absolute;
+  width: 100vw;
+  height: 82px;
+  padding: 0 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14.5px;
+}
+
+.registration_content {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 1px 15px;
+}
+
+.registration a {
+  background-color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid rgb(117, 101, 117);
+  color: black;
+}
+
+.home_banner {
+  height: 100vh;
+  width: 460px;
+  background-image: url('../images/1programar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation {
+  background-color: white;
+  width: 270px;
+  height: 180px;
+  border-radius: 8px;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.home_login {
+  height: 100vh;
+  width: calc(100vw - 460px);
+}
+
+.inner_home_login {
+  height: 100vh;
+  padding: 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_area {
+  width: 560px;
+}
+
+.login_area_title {
+  /* background-color: seagreen; */
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.login_area_fill {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_area_fill label {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+}
+
+.login_area_fill input {
+  border: 1px solid rgb(117, 101, 117);
+  padding: 14px 12px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.input_eml {
+  margin-bottom: 12px;
+}
+
+.input_psw {
+  margin-bottom: 0px;
+}
+
+.login_area_fill a {
+  font-size: 12px;
+  text-align: end;
+}
+
+.login_area_fill button {
+  align-self: center;
+  margin: 20px 0 10px 0;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(117, 101, 117);
+}
